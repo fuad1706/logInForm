@@ -29,13 +29,13 @@
   width: 450px;
   height: 450px;
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, .2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
 }
 
-.main-cont1 h1{
-    margin-bottom: 35px;
-    color: #fff;
+.main-cont1 h1 {
+  margin-bottom: 35px;
+  color: #fff;
 }
 .email-cont,
 .password {
@@ -45,6 +45,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  color: #fff;
 }
 
 .email-cont {
@@ -69,32 +70,38 @@
   margin-left: 10px;
 }
 
-.main-cont2{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.main-cont2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
 }
-.for-check{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.for-check {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-cont2 a {
+  color: #fff;
 }
 
-button{
-    background-color: #fff;
-    border: none;
-    border-radius: 25px;
-    width: 100%;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    cursor: pointer;
-
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
 }
-input::placeholder{
-    color: #fff;
+input::placeholder {
+  color: #fff;
+}
+input[type="email"], input[type="password"]{
+  color: #fff;
 }
