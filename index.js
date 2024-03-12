@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return true;
     }
     // Check if the input is at least 3 characters long (for username)
-    if (username.length >= 3) {
+    if (username.length >= 6) {
       return true;
     }
     return false;
